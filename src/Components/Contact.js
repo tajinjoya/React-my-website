@@ -18,7 +18,7 @@ class Contact extends React.Component {
   render() {
     return(
 
-      <body id="body" className="theme--dark">
+      <div id="body" className="theme--dark">
         <Header ref="header" handleBodyTheme = {this.handleBodyTheme} />
 
         <div className="container">
@@ -37,7 +37,7 @@ class Contact extends React.Component {
           <p>&copy; 2019 Tajin Joya.</p>
         </footer>
 
-      </body>
+      </div>
     );
   }
 }

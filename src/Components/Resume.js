@@ -23,7 +23,7 @@ class Resume extends React.Component {
       
   render() {
     return(
-      <body id="body" className="theme--dark">
+      <div id="body" className="theme--dark">
       <Header ref="header" handleBodyTheme = {this.handleBodyTheme} />
 
       <div class="skills card">
@@ -113,7 +113,7 @@ class Resume extends React.Component {
             <p>&copy; 2019 Tajin Joya.</p>
           </footer>
 
-      </body>
+      </div>
   );
 
 }}

@@ -20,7 +20,7 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-      <body id="body" className="theme--dark">
+      <div id="body" className="theme--dark">
         <Header ref="header" handleBodyTheme = {this.handleBodyTheme} />
         <div className="container">
         <div className="gallery">
@@ -56,7 +56,7 @@ class Portfolio extends React.Component {
             className="social__icon"></img></a>
         <p>&copy; 2019 Tajin Joya.</p>
       </footer>     
-      </body>
+      </div>
     );
 
   }} 
